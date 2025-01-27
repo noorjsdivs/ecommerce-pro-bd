@@ -6,6 +6,9 @@
     --font-raleway: "Raleway", sans-serif;
     --radius: 0.5rem;
   }
+  .hoverEffect {
+    @apply duration-300 ease-in-out transition-all;
+  }
 }
 body {
   font-family: var(--font-raleway);
